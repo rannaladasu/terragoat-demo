@@ -164,6 +164,7 @@ resource "aws_iam_instance_profile" "ec2profile" {
     git_org              = "bridgecrewio"
     git_repo             = "terragoat"
     yor_trace            = "6d33b2b9-2dd3-4915-b5d4-283152c928f1"
+    Env                  = "prod"
   }
 }
 
@@ -408,6 +409,8 @@ EOF
     git_org              = "bridgecrewio"
     git_repo             = "terragoat"
     yor_trace            = "f7999d4e-c983-43ee-bd88-7903a6f8483e"
+    }, {
+    Env = "prod"
   })
 }
 

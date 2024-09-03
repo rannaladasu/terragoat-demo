@@ -107,6 +107,7 @@ resource "aws_s3_bucket" "data_science" {
     git_org              = "bridgecrewio"
     git_repo             = "terragoat"
     yor_trace            = "9a7c8788-5655-4708-bbc3-64ead9847f64"
+    Env                  = "prod"
   }
 }
 
